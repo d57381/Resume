@@ -1,0 +1,206 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{multicol}
+
+\usepackage[scale=.85]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Daniel} % Your first name
+\familyname{Reinhart} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+%\title{Software Developer}
+\address{3225 Arden Villas Blvd. \#25}{Orlando, FL 32817}
+\mobile{(614)-619-8645}
+\email{dreinhart.81@gmail.com}
+\homepage{www.linkedin.com/in/danielreinhart}{LinkedIn Profile} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+ % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Career Objective}
+\cvitem{}{\textnormal{To utilize my experience in scientific analytic thinking, data analysis and programming in an environment focused on technology driven solutions to real world problems. Work with a team of like minded individuals to solve challenging and meaningful problems while continuing to develop and expand my skills. }}
+\section{Education}
+
+\cventry{2019--2022}{University of Central Florida}{Master of Science}{}{\textit{Mathematics, GPA: 3.6} \hfill Orlando, Florida}{}
+\cventry{2017--2019}{University of Central Florida}{Master of Science}{}{\textit{Physics, GPA: 3.9} \hfill Orlando, Florida}{%\textbf{Thesis}: \textit{The Relativistic Harmonic Oscillator and Generalization of Lewis’ Invariant}\\ Adviser: Prof. Bhimsen Shivamoggi%
+}
+\cventry{2011--2016}{The Ohio State University}{Bachelor of Science}{}{\textit{Mathematics, GPA: 3.6} \hfill Columbus, Ohio}{}
+\cventry{2011--2016}{The Ohio State University}{Bachelor of Science}{}{\textit{Physics, GPA: 3.6} \hfill Columbus, Ohio}{}
+
+\section{Masters Thesis}
+
+\cvitem{Title}{\emph{The Relativistic Harmonic Oscillator and Generalization of Lewis' Invariant}}
+\cvitem{Supervisor}{Professor Bhimsen Shivamoggi}
+\cvitem{Description}{Thesis was based on the asymptotic analysis and solution of the relativistic harmonic oscillator, and the calculation of Lewis' invariant in a perturbation series. }
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	Skills SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+
+\cvitem{\textbf{Coding}}{\textnormal{Python (present), C++ (2021), JAVA (2021)}}
+\vspace{2mm}
+\cvitem{\textbf{Relevant Coursework}} {\begin{multicols}{3} \begin{itemize}
+\item Intro. to Machine Learning \item Data Analysis \item Bayesian Analysis
+\item App. Harmonic Analysis \item Intro. to C++ \item Numerical Methods
+\item Plasma Physics \item Nonlinear Dynamics \item Advanced Linear Algebra
+\end{itemize} \end{multicols}}  %{\textnormal{Introduction to Machine Learning, Data Analysis, Bayesian Analysis, Probability (2 courses),Applied and Numerical Harmonic Analysis, Introduction to C++, Numerical Methods in Mathematics (2 courses), Computational Physics, Numerical Solutions of Partial Differential Equations,   Plasma Physics, Statistical Mechanics (2 Courses), Nonlinear Dynamics, Nonlinear Ordinary Differential Equations, Electronics Lab, Advanced Linear Algebra, Electrodynamics (4 courses) }}
+\vspace{2mm}
+\cvitem{\textbf{Data Analysis}}{\textnormal{Statistical Analysis Methods, Monte-Carlo Simulations. Intimate knowledge of several machine learning algorithms and their implementation. }}
+\vspace{2mm}
+\cvitem{\textbf{Other Relevant Skills}}{\textnormal{Familiar with several numerical methods and their algorithms across multiple subjects.  Experience with the Numpy, Scipy, Pandas, Scikit Learn, and Pytorch libraries. Experience with Wolfram Mathematica. Fast learner of programming languages.}}
+\cvitem{\textbf{Relvant Projects}}{\textnormal{\begin{itemize}
+\item \textbf{Numerical Mathematics (2020}): Collaborated to reconstruct algorithm in Python to solve radially symmetric Schr\"{o}dinger equation for various potentials
+\item \textbf{Numerical PDE's (2021)}: Collaborated to apply domain decomposition algorithm in Python to various examples of PDE using the finite difference method
+\item \textbf{Machine Learning (Ongoing)}: Develop a neural network in Python using Pytorch that attempts to identify bird species by audio samples. 
+\end{itemize}}}
+%----------------------------------------------------------------------------------------
+%	Masters SECTION
+%----------------------------------------------------------------------------------------
+
+
+
+\section{Work Experience}
+
+\cventry{Aug 2019 --
+Present}{Graduate Teaching Associate/ Instructor of Record}{\textsc{University of Central Florida Dept. of Mathematics}}{Orlando, FL}{}{\textnormal{Led lectures and recitations requiring the creation of semester long schedules and daily lecture plans for classes of about 50 to 400 students.  Wrote exams and quizzes independently for various classes including calculus and ordinary differential equations.}}
+
+\vspace{3mm}
+\cventry{Aug 2017 --
+Aug 2019}{Graduate Teaching Associate}{\textsc{University of Central Florida Dept. of Physics}}{}{Orlando, FL}{\textnormal{Conducted daily instruction and weekly lab activities for various introductory physics courses. Duties included supervising students in the conduction of various experiments and collection of data.  This required routinely operating various data acquisition programs and hardware, as well as instruction in the analysis of experimental results.
+}}
+
+\vspace{3mm}
+\cventry{Dec 2016 --
+Aug 2017}{MCAT Physics Instructor}{\textsc{The Princeton Review }}{}{Columbus, OH}{\textnormal{Designed and taught multiple weekly lessons that focused on the various areas of physics that commonly occurred on the MCAT exam for prospective medical students.
+}}
+
+\vspace{3mm}
+\cventry{Aug 2014 --
+May 2016}{Undergraduate Student Instructional Assistant}{\textsc{The Ohio State University Department of Mathematics}}{}{Columbus, OH}{\textnormal{Planned and delivered biweekly lessons for various undergraduate math courses. Led recitations of about 40 students each semester.
+}}
+
+\vspace{3mm}
+\cventry{Aug 2013 --
+May 2016}{Tutor}{\textsc{Mathematics and Statistics Learning Center, The Ohio State University}}{}{Columbus, OH}{\textnormal{Served as a tutor for The Ohio State University. Tutored subjects including single and multivariable calculus, differential equations (ordinary and partial), and linear algebra
+}}
+
+\vspace{3mm}
+\cventry{May 2012 --
+May 2014}{Student Facility Coordinator}{\textsc{Recreational and Physical Activity Center, The Ohio State University}}{}{Columbus, OH}{\textnormal{Served as a para-professional member for the facilities department. Led the day to day operations overseeing a staff of eight.
+}}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+
+
+
+%------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	Coursework SECTION
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Communication Skills}
+
+%\cvitem{2010}{Oral Presentation at the California Business Conference}
+%\cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{Interests}
+
+% \renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+% \cvlistdoubleitem{Piano}{}
+% \cvlistitem{Tennis, amateur baking, continued education,  cooking}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
+
+
+
